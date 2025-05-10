@@ -1,0 +1,58 @@
+# === Python/Django ===
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.so
+*.DS_Store
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django static/media files (if generated locally)
+staticfiles/
+media/
+
+# Local config
+*.env
+.env.*
+
+# === VS Code/IDE config ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === React/Frontend ===
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn-error.log
+
+# === MacOS / Linux ===
+.DS_Store
+.Trashes
+*.swp
+*~
+
+# === Coverage / Testing ===
+htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+nosetests.xml
+test.db
+
+# === Git backup ===
+*.orig
+
+# === zip/output files ===
+*.zip
+*.tar.gz
